@@ -1,38 +1,11 @@
-# create-svelte
+# WTH is going on here
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Microsoft recently [announced a new version of Bing with GPT](https://www.theverge.com/2023/2/7/23587454/microsoft-bing-edge-chatgpt-ai). Sounds awesome, but what a missed opportunity!
 
-## Creating a project
+Who wants to "Bing" something?
 
-If you're seeing this, you've probably already done this step. Congrats!
+I'd much rather **Ask Clippy**!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+I hope I'm not the only old fart who remembers Ask Jeeves...
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+![clippy](https://user-images.githubusercontent.com/13255599/218347645-18f2175d-5c89-4c54-8045-2476ea042e18.jpg)
