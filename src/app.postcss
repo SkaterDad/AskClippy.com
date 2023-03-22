@@ -4,8 +4,21 @@
 @tailwind utilities;
 
 .threedee {
-  @apply border-[2px] border-l-white border-t-white border-r-word-gray-dark border-b-word-gray-dark;
+  @apply border-2 border-l-white border-t-white border-r-gray-dark border-b-gray-dark;
 }
 .basic-shadow {
   box-shadow: 1px 1px 0px black;
+}
+
+.threedee-on-hover {
+  @apply border-2 border-gray;
+}
+
+.threedee-on-hover:hover {
+  @apply border-2 border-l-white border-t-white border-r-gray-dark border-b-gray-dark;
+}
+
+button.threedee:active,
+.threedee-on-hover:active {
+  @apply border-2 border-r-white border-b-white border-l-gray-dark border-t-gray-dark;
 }
