@@ -11,6 +11,9 @@ const config = {
       red: "#ff0000",
     },
     extend: {
+      fontFamily: {
+        sans: `Arial, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`,
+      },
       spacing: {
         0: 0,
         1: "1px",
