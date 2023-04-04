@@ -1,5 +1,5 @@
 <script>
-  import LogoUrl from "$lib/icons/logo.svg";
+  import LogoUrl from "$lib/icons/Logo.svg";
   import Button from "$lib/components/Button.svelte";
   import IconClose from "$lib/icons/IconClose.svelte";
   import IconMaximize from "$lib/icons/IconMaximize.svelte";
