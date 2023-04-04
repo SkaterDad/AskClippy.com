@@ -1,6 +1,5 @@
 <script lang="typescript">
   import { draggable } from "@neodrag/svelte";
-  import clippy from "$lib/assets/clippy.svg";
   import Button from "$lib/components/Button.svelte";
   import IconClose from "$lib/icons/IconClose.svelte";
 </script>
