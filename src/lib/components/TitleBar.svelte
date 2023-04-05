@@ -6,11 +6,15 @@
   import IconMinimize from "$lib/icons/IconMinimize.svelte";
 </script>
 
-<div class="p-4 bg-blue text-white font-bold flex justify-between items-center">
+<div
+  class="p-2 sm:p-4 text-xs sm:text-base bg-blue text-white font-bold flex justify-between items-center"
+>
   <div class="flex items-center">
-    <img src={LogoUrl} alt="Paperclip logo" class="h-24 -mb-4 mr-4" /><span
-      >Ask Clippy - Document1</span
-    >
+    <img
+      src={LogoUrl}
+      alt="Paperclip logo"
+      class="h-16 sm:h-24 -mb-4 mr-4"
+    /><span>Ask Clippy - Document1</span>
   </div>
   <div class="flex gap-3">
     <Button>

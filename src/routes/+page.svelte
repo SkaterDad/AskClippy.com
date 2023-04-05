@@ -6,16 +6,18 @@
   <title>Ask Clippy!</title>
 </svelte:head>
 
-<h1 class="text-center my-32 text-5xl text-blue">
+<h1 class="text-center my-16 sm:my-32 text-3xl sm:text-5xl text-blue">
   Who wants to "Bing" something?
 </h1>
-<p class="text-center text-4xl text-red">"new Bing"? "Bing Chat"? Nah....</p>
+<p class="text-center text-2xl sm:text-4xl text-red">
+  "new Bing"? "Bing Chat"? Nah....
+</p>
 <p class="text-center mt-16">
   <span class="sr-only">Ask Clippy!</span>
   <img src={wordArt} class="h-128 inline-block" alt="Ask Clippy!" />
 </p>
 <hr class="my-8" />
-<div class="text-lg pees">
+<div class="text-base sm:text-lg pees">
   <p>Dear Microsoft,</p>
   <p>
     I think you missed out on a great branding/meme opportunity. To help me

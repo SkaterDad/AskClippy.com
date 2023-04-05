@@ -25,7 +25,7 @@
     class="border-2 border-black w-full relative overflow-auto bg-gray-dark"
   >
     <div
-      class="my-24 mx-auto p-24 border border-black bg-white min-h-[11in] max-w-[8.5in]"
+      class="my-12 sm:my-24 mx-auto p-24 border border-black bg-white min-h-[11in] max-w-[8.5in]"
     >
       <slot />
     </div>

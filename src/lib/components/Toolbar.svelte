@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="threedee text-sm font-semibold px-4 mt-2 h-32 flex flex-start items-center"
+  class="w-full overflow-hidden threedee text-xs sm:text-sm font-semibold px-4 mt-2 h-24 sm:h-32 flex flex-start items-center"
 >
   <ToolbarHandle />
   <slot />

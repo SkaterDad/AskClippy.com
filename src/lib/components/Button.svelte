@@ -12,8 +12,8 @@
   };
 
   let sizeClasses: Record<Size, string> = {
-    base: "py-2 px-4",
-    small: "p-2",
+    base: "py-1 sm:py-2 px-2 sm:px-4",
+    small: "p-1 sm:p-2",
   };
 </script>
 

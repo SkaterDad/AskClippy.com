@@ -8,7 +8,7 @@
   use:draggable={{
     bounds: "body",
   }}
-  class="fixed bottom-0 right-0 border-2 border-b-black border-r-black border-t-gray border-l-gray mb-32 mr-32"
+  class="fixed bottom-0 right-0 border-2 border-b-black border-r-black border-t-gray border-l-gray mb-16 sm:mb-32 mr-16 sm:mr-32"
 >
   <div class="threedee bg-gray p-2">
     <div class="bg-blue py-3 px-4 flex justify-end mb-2">
