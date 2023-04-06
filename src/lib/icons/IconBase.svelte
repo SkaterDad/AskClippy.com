@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="typescript">
   export let size: Size = "base";
 
   let sizeClasses: Record<Size, string> = {
