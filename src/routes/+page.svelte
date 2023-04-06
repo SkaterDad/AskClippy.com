@@ -25,7 +25,7 @@
     Balmer keynote.
   </p>
   <p>
-    You know <a class="underline text-blue" href="mailto://mike@skaterdad.dev"
+    You know <a class="underline text-blue" href="mailto://mike@askclippy.com"
       >where to find me</a
     >. Have your people call my people.
   </p>

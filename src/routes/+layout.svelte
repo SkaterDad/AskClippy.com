@@ -21,16 +21,29 @@
     <Button style="flat">Window</Button>
     <Button style="flat">Help</Button>
   </Toolbar>
-  <main
-    class="border-2 border-black w-full relative overflow-auto bg-gray-dark"
-  >
-    <div
-      class="my-12 sm:my-24 mx-auto p-24 border border-black bg-white min-h-[11in] max-w-[8.5in]"
-    >
-      <slot />
+  <main class="w-full relative overflow-auto bg-gray-dark">
+    <div class="border-2 border-black">
+      <div
+        class="my-12 sm:my-24 mx-auto p-24 border border-black bg-white min-h-[11in] max-w-[8.5in]"
+      >
+        <slot />
+      </div>
     </div>
     <Clippy />
   </main>
+  <footer class="threedee flex gap-8 items-center px-8 pt-3 pb-1 text-sm">
+    <p class="threedee-inset px-8">
+      <a href="mailto://mike@askclippy.com" class="hover:underline"
+        >Webmaster E-Mail</a
+      >
+    </p>
+    <p class="threedee-inset px-8">
+      <a href="https://skaterdad.dev/games/">More Apps & Games</a>
+    </p>
+    <p class="threedee-inset px-8">
+      <a href="https://twitter.com/SkaterDadCodes">@SkaterDadCodes</a>
+    </p>
+  </footer>
 </div>
 
 <style lang="postcss">
@@ -42,6 +55,6 @@
   }
 
   .layout-grid {
-    grid-template-rows: auto auto 1fr;
+    grid-template-rows: auto auto 1fr auto;
   }
 </style>
