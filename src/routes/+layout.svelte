@@ -31,12 +31,9 @@
     </div>
     <Clippy />
   </main>
-  <footer class="threedee flex gap-8 items-center px-8 pt-3 pb-1 text-sm">
-    <p class="threedee-inset px-8">
-      <a href="mailto://mike@askclippy.com" class="hover:underline"
-        >Webmaster E-Mail</a
-      >
-    </p>
+  <footer
+    class="threedee flex gap-8 items-center px-8 pt-3 pb-1 text-xs sm:text-sm"
+  >
     <p class="threedee-inset px-8">
       <a href="https://skaterdad.dev/games/">More Apps & Games</a>
     </p>
