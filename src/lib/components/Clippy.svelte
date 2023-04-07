@@ -5,21 +5,28 @@
 
   $: dialogCss = angry
     ? "top-16 bottom-16 right-16 left-16 sm:bottom-32 sm:right-32 sm:top-32 sm:left-32"
-    : "bottom-16 right-16 sm:bottom-32 sm:right-32 h-128 sm:h-[256px] w-[256px]";
+    : "bottom-16 right-16 sm:bottom-32 sm:right-32 h-128 sm:h-[256px] w-128 sm:w-[256px]";
 
   $: bgCss = angry
-    ? "from-red to-black py-128 px-128"
-    : "from-gray-dark to-white py-8 px-64";
+    ? "from-red to-black p-32"
+    : "from-gray-dark to-white py-8 px-16 sm:px-64";
 </script>
 
 <LittleDialog css={dialogCss} onClose={() => (angry = !angry)}>
   <div
-    class="bg-gradient-to-br {bgCss} group h-full flex items-center justify-center relative"
+    class="bg-gradient-to-br {bgCss} group h-full flex flex-col gap-16 items-center justify-center relative"
   >
+    {#if angry}
+      <h3
+        class="font-bold text-center text-xl sm:text-3xl lg:text-5xl text-white drop-shadow"
+      >
+        HOW DARE YOU TRY TO CLOSE ME!<br />I AM THE ALLMIGHTY CLIPPY!
+      </h3>
+    {/if}
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 26.5 57.92"
-      class="h-full {angry ? 'angry-shake' : ''}"
+      class="flex-1 {angry ? 'angry-shake' : ''}"
     >
       <title>Clippy Mascot</title>
       <g clip-rule="evenodd" fill-rule="evenodd">
@@ -67,11 +74,6 @@
         />
       </g>
     </svg>
-    {#if angry}
-      <h3 class="absolute top-0 text-5xl text-white drop-shadow mt-16">
-        HOW DARE YOU TRY TO CLOSE ME! I AM THE ALL MIGHTY CLIPPY!
-      </h3>
-    {/if}
   </div>
 </LittleDialog>
 
