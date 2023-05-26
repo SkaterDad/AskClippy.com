@@ -31,39 +31,48 @@
   </p>
   <blockquote class="bg-gray/25 border-4 border-blue p-8">
     <p>
-      Ladies and gentlemen, I have one word for you today: <strong
-        class="text-red">Clippy!</strong
+      Ladies and gentlemen, I have four words for you today. <strong
+        >Clippy! Clippy! Clippy! Clippy!</strong
       >
     </p>
     <p>
-      Yes, you heard me right. The virtual assistant that you love to hate is
-      back! And this time, it's powered by AI. We call it "Ask Clippy," and it's
-      going to revolutionize the world of search!
+      That's right, the iconic virtual assistant is back, and it's ready to make
+      waves in the world of search. We're bringing you <strong
+        >Ask Clippy</strong
+      >, powered by Bing GPT, and it's going to blow your minds!
     </p>
     <p>
-      With <strong>the power of AI</strong>, Ask Clippy is going to offer users
-      personalized, relevant, and accurate responses to their queries. No more
-      sifting through pages of irrelevant results - Ask Clippy is here to guide
-      you to the information you need.
+      Clippy isn't just a nostalgic throwback; it's a revolution in how we
+      search for information. <strong>Ask Clippy</strong> harnesses the power of
+      Artificial Intelligence (AI) to provide you with personalized, accurate, and
+      relevant responses to your queries. It's like having your own personal guide
+      through the vast expanse of the internet.
     </p>
     <p>
-      Now, some of you might be thinking, "Why Clippy? Why now?" <strong
-        >Well, let me tell you - Clippy was ahead of its time.</strong
-      > It was the original virtual assistant, designed to help users navigate complex
-      software. And now with the power of AI, Clippy is going to take that assistance
-      to the next level.
+      So, why Clippy, you might ask? Because Clippy was a pioneer, a visionary,
+      and a symbol of innovation. And now, with the power of AI, we're taking
+      that legacy to a whole new level.
     </p>
     <p>
-      But it's not just about functionality. Ask Clippy is going to engage users
-      in a whole new way. It's going to be fun, it's going to be nostalgic, and
-      it's going to be the go-to resource for anyone seeking information online.
+      When I say "Clippy," I want you to imagine a search experience like no
+      other. Imagine the joy of receiving precise answers to your questions, the
+      exhilaration of finding exactly what you're looking for with ease. <strong
+        >Ask Clippy</strong
+      >
+      is here to make search exciting again!
     </p>
     <p>
-      So I urge you to join me in embracing the power of Ask Clippy. It's a
-      unique opportunity to showcase our innovation and creativity while
-      providing users with a fun and effective search experience.
+      But we can't do it alone. We need developers, we need enthusiasts, we need
+      all of you to join us on this journey. Together, we'll redefine how we
+      interact with search engines and create an experience that will leave a
+      lasting impact.
     </p>
-    <p>Thank you, and <strong>let's get excited about Ask Clippy!</strong></p>
+    <p>
+      So, let me hear you now! <strong class="text-red"
+        >Clippy! Clippy! Clippy! Clippy!</strong
+      > Embrace the power of Ask Clippy and let's revolutionize search together!
+    </p>
+    <p>Thank you, and let's give a big round of applause for Clippy!</p>
   </blockquote>
 </div>
 
